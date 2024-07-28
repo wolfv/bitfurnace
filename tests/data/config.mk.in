@@ -1,0 +1,14 @@
+# Note that 'cc' is usually an alias for whatever is the main compiler
+# on a system, e.g. the GNU Compiler on Linux.
+CC = cc
+
+# The linker.
+LD = $(CC)
+#LD = ld
+
+TIFFLIB = NONE
+TIFFHDR_DIR =
+
+# Comment about JPEGLIB
+JPEGLIB = NONE
+JPEGHDR_DIR =
